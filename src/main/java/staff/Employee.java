@@ -31,6 +31,11 @@ public abstract class Employee {
 
     public void raiseSalary(double raise){
         salary = salary + raise;
+        if(raise > 0){
+            System.out.println("Congratulations on your raise");
+        } else {
+            System.out.println("Illegal move, raise denied");
+        }
     }
 
     public double payBonus(){
@@ -38,5 +43,9 @@ public abstract class Employee {
     }
 
 
-
 }
+
+
+
+
+

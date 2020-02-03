@@ -31,14 +31,15 @@ public class ManagerTest {
     @Test
 
     public void getRaiseSalary(){
-        manager.raiseSalary(3200);
-        assertEquals(35200, manager.getSalary(), 0.01);
+        manager.raiseSalary(1);
+        assertEquals(32001, manager.getSalary(), 0.01);
     }
     @Test
     public void getPayBonus(){
         assertEquals(320, manager.payBonus(), 0.01);
 
     }
+
 
 
 }
