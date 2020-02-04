@@ -39,7 +39,13 @@ public class ManagerTest {
         assertEquals(320, manager.payBonus(), 0.01);
 
     }
+    @Test
+    public void setName(){
+        manager.setName("Jeff Bridges");
+        assertEquals("Jeff Bridges", manager.getName());
 
-
+    }
 
 }
+
+
